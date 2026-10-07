@@ -69,9 +69,7 @@ export const meta = {
 	description: "A responsive and modern real-time whatsapp clone made with Next.js, Pusher, and Prisma.",
 	keywords: ["Whatsapp", "Clone", "Next.js", "Pusher", "Prisma"],
 	authors: [{ name: "FallenDeity" }],
-	metadataBase: process.env.NEXT_PUBLIC_BASE_URL
-  ? new URL(process.env.NEXT_PUBLIC_BASE_URL)
-  : undefined,
+	metadataBase: process.env.NEXT_PUBLIC_BASE_URL ? new URL(process.env.NEXT_PUBLIC_BASE_URL) : undefined,
 	robots: {
 		follow: true,
 		index: false,
